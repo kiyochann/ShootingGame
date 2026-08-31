@@ -1,0 +1,28 @@
+# ビルド出力（実行ファイルや中間生成物）の除外
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio が自動生成するキャッシュや設定フォルダの除外
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# C++のビルド成果物・ログの除外
+*.obj
+*.ilk
+*.pdb
+*.tlog
+*.lastbuildstate
+*.idb
+*.iobj
+*.ipdb
+*.log
+
+# その他一時ファイル
+*.tmp
